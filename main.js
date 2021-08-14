@@ -1,4 +1,4 @@
-const grid_size = 50;
+const grid_size = 10;
 const main_container = document.querySelector('main');
 
 let gridContainer = document.createElement('div');
