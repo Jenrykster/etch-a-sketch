@@ -26,3 +26,11 @@ gridCells.forEach((cell) => {
     cell.addEventListener('mouseenter', changeColor);
 })
 
+let button = document.querySelector('#clear-button');
+
+function clearGrid(e){
+    gridCells.forEach((cell)=>{
+        cell.style.backgroundColor = "transparent"
+    })
+}
+button.addEventListener('click', clearGrid)
